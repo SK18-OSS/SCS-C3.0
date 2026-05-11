@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ececec;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+/* LEFT TEXT */
+
+.side-text {
+  position: absolute;
+  left: 20px;
+  top: 420px;
+}
+
+.side-text h3 {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #5d0a0a;
+  text-decoration: underline;
+}
+
+/* STAR */
+
+.star {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+
+  font-size: 90px;
+  color: red;
+  font-weight: 700;
+}
+
+/* TOP RIGHT */
+
+.top-right {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+.top-right p {
+  font-size: 12px;
+  text-align: right;
+  color: #7a3a3a;
+  line-height: 16px;
+}
+
+/* HERO */
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1 {
+  margin-top: 10px;
+
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 500;
+  color: #5b0000;
+
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 10px;
+
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 400;
+
+  color: #b8a5a5;
+  text-align: center;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(to right, #230000, #ff4d00);
+
+  display: inline-block;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin: 0 15px;
+}
+
+.desc {
+  width: 350px;
+
+  margin-top: 30px;
+
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #6d4d4d;
+}
+
+/* CARDS */
+
+.cards {
+  margin-top: 30px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 260px;
+  height: 340px;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BOTTOM */
+
+.bottom {
+  margin-top: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom h1 {
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+
+  font-weight: 500;
+  color: #5b0000;
+}
+
+.bottom h1 span {
+  color: #b8a5a5;
+}
+
+.bottom p {
+  width: 500px;
+
+  margin-top: 20px;
+
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #6d4d4d;
+}
